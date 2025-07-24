@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
   background: #f7f9fb;
   color: #222;
-  scroll-behavior: smooth;
 }
 
 img, video {
@@ -16,7 +19,7 @@ img, video {
 }
 
 .logo {
-  height: 60px;
+  height: 70px;
   width: auto;
   max-width: 100%;
 }
