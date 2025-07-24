@@ -1,0 +1,6 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      logo: /assets/Primary%20Logo%20or%20Full%20Logo.png
+      social_image: /assets/Primary%20Logo%20or%20Full%20Logo.png

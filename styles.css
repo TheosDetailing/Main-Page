@@ -5,6 +5,37 @@ body {
   color: #222;
 }
 
+.logo {
+  height: 40px;
+}
+
+footer .logo {
+  margin-bottom: 0.5rem;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 .hero {
   position: relative;
   height: 60vh;
@@ -180,6 +211,15 @@ main {
   color: #174ea6;
   margin-bottom: 2rem;
 }
+
+.contact {
+  margin-top: 3rem;
+  text-align: center;
+}
+.contact a {
+  color: #2563eb;
+  text-decoration: none;
+}
 .reasons {
   display: flex;
   flex-wrap: wrap;
@@ -205,6 +245,9 @@ footer {
   padding: 1.2rem 0;
   font-size: 1rem;
   margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 900px) {
