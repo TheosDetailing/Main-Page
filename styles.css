@@ -175,6 +175,12 @@ main {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
+.time {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-top: -0.5rem;
+  margin-bottom: 0.8rem;
+}
 .price {
   font-size: 1.1rem;
   font-weight: 700;
@@ -221,6 +227,11 @@ main {
   color: #ef4444;
   font-weight: 700;
   margin-left: 0.5em;
+}
+.addon-desc {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
 }
 
 .why-choose-us {
