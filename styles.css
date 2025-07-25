@@ -9,8 +9,8 @@ html {
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
-  background: #f7f9fb;
-  color: #222;
+  background: #121212;
+  color: #e5e5e5;
 }
 
 img, video {
@@ -38,7 +38,7 @@ footer .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(10, 37, 64, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(4px);
 }
 
@@ -62,7 +62,7 @@ footer .logo {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(135deg, #b91c1c, #0a2540);
+  background: linear-gradient(135deg, #451717, #0a2540);
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ footer .logo {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, rgba(0,0,0,0.25), rgba(0,0,0,0.6));
+  background: radial-gradient(circle at center, rgba(0,0,0,0.4), rgba(0,0,0,0.75));
 }
 
 .hero-photo {
@@ -85,6 +85,7 @@ footer .logo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 25%;
 }
 
 .hero-content {
@@ -124,7 +125,7 @@ footer .logo {
   background: #b91c1c;
 }
 .btn-secondary {
-  background: #fff;
+  background: #1e1e1e;
   color: #ef4444;
   border: 2px solid #ef4444;
   margin-top: 1rem;
@@ -143,7 +144,7 @@ main {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #b91c1c;
+  color: #f87171;
 }
 .service-list {
   display: flex;
@@ -153,9 +154,9 @@ main {
   margin-bottom: 2rem;
 }
 .service-card {
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 18px;
-  box-shadow: 0 2px 16px rgba(239,68,68,0.07);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.6);
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   flex: 1 1 270px;
   max-width: 320px;
@@ -166,11 +167,11 @@ main {
   transition: box-shadow 0.2s;
 }
 .service-card:hover {
-  box-shadow: 0 4px 24px rgba(239,68,68,0.13);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.8);
 }
 .service-card h3 {
   margin-top: 0;
-  color: #ef4444;
+  color: #f87171;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
@@ -178,11 +179,11 @@ main {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #b91c1c;
+  color: #f87171;
 }
 .price span {
   font-weight: 400;
-  color: #555;
+  color: #aaa;
 }
 .service-card ul {
   list-style: none;
@@ -205,7 +206,7 @@ main {
 .addon {
   text-align: center;
   margin-top: 1.5rem;
-  background: #fee2e2;
+  background: #2a2a2a;
   border-radius: 12px;
   padding: 1rem 0.5rem;
   max-width: 400px;
@@ -214,7 +215,7 @@ main {
 }
 .addon h4 {
   margin: 0 0 0.3rem 0;
-  color: #b91c1c;
+  color: #f87171;
 }
 .addon-price {
   color: #ef4444;
@@ -224,14 +225,14 @@ main {
 
 .why-choose-us {
   margin-top: 3.5rem;
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 18px;
-  box-shadow: 0 2px 16px rgba(239,68,68,0.07);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.6);
   padding: 2.5rem 1.5rem 2rem 1.5rem;
 }
 .why-choose-us h2 {
   text-align: center;
-  color: #b91c1c;
+  color: #f87171;
   margin-bottom: 2rem;
 }
 
@@ -256,13 +257,13 @@ main {
   text-align: center;
 }
 .reason h3 {
-  color: #ef4444;
+  color: #f87171;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
 
 footer {
-  background: #0a2540;
+  background: #000a1c;
   color: #fff;
   text-align: center;
   padding: 1.2rem 0;
