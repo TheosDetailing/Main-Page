@@ -116,22 +116,22 @@ footer .logo {
   cursor: pointer;
 }
 .btn-primary {
-  background: #ef4444;
+  background: #ff7a2e;
   color: #fff;
   border: none;
   box-shadow: 0 2px 8px rgba(239,68,68,0.08);
 }
 .btn-primary:hover {
-  background: #b91c1c;
+  background: #cc5500;
 }
 .btn-secondary {
   background: #1e1e1e;
-  color: #ef4444;
-  border: 2px solid #ef4444;
+  color: #ff7a2e;
+  border: 2px solid #ff7a2e;
   margin-top: 1rem;
 }
 .btn-secondary:hover {
-  background: #ef4444;
+  background: #ff7a2e;
   color: #fff;
 }
 
@@ -144,7 +144,7 @@ main {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #f87171;
+  color: #ff9f5f;
 }
 .service-list {
   display: flex;
@@ -171,7 +171,7 @@ main {
 }
 .service-card h3 {
   margin-top: 0;
-  color: #f87171;
+  color: #ff9f5f;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
@@ -185,7 +185,7 @@ main {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #f87171;
+  color: #ff9f5f;
 }
 .price span {
   font-weight: 400;
@@ -204,7 +204,7 @@ main {
 }
 .service-card ul li:before {
   content: "✔";
-  color: #ef4444;
+  color: #ff7a2e;
   position: absolute;
   left: 0;
   font-size: 1em;
@@ -221,10 +221,10 @@ main {
 }
 .addon h4 {
   margin: 0 0 0.3rem 0;
-  color: #f87171;
+  color: #ff9f5f;
 }
 .addon-price {
-  color: #ef4444;
+  color: #ff7a2e;
   font-weight: 700;
   margin-left: 0.5em;
 }
@@ -243,7 +243,7 @@ main {
 }
 .why-choose-us h2 {
   text-align: center;
-  color: #f87171;
+  color: #ff9f5f;
   margin-bottom: 2rem;
 }
 
@@ -252,7 +252,7 @@ main {
   text-align: center;
 }
 .contact a {
-  color: #ef4444;
+  color: #ff7a2e;
   text-decoration: none;
 }
 .reasons {
@@ -268,7 +268,7 @@ main {
   text-align: center;
 }
 .reason h3 {
-  color: #f87171;
+  color: #ff9f5f;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
