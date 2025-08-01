@@ -85,7 +85,9 @@ footer .logo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 25%;
+  /* Center the framing on the steering wheel which sits
+     roughly 80% of the way up in the image (20% from the top). */
+  object-position: 50% 20%;
   animation: heroPan 40s ease-in-out infinite;
 }
 
@@ -340,9 +342,26 @@ footer {
 #services, #contact { scroll-margin-top: 80px; }
 
 @keyframes heroPan {
-  0% { transform: scale(1) translateY(-5%); }
-  25% { transform: scale(1.02) translateY(0); }
-  50% { transform: scale(1) translateY(5%); }
-  75% { transform: scale(1.02) translateY(0); }
-  100% { transform: scale(1) translateY(-5%); }
+  /* Focus on the steering wheel near the top and
+     gently move between the upper and middle areas */
+  0% {
+    transform: scale(1.3);
+    object-position: 50% 20%;
+  }
+  25% {
+    transform: scale(1.5);
+    object-position: 50% 10%;
+  }
+  50% {
+    transform: scale(1.3);
+    object-position: 50% 50%;
+  }
+  75% {
+    transform: scale(1.5);
+    object-position: 50% 10%;
+  }
+  100% {
+    transform: scale(1.3);
+    object-position: 50% 20%;
+  }
 }
