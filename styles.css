@@ -86,6 +86,7 @@ footer .logo {
   height: 100%;
   object-fit: cover;
   object-position: 50% 25%;
+  animation: heroPan 40s ease-in-out infinite;
 }
 
 .hero-content {
@@ -214,8 +215,8 @@ main {
   margin-top: 1.5rem;
   background: #2a2a2a;
   border-radius: 12px;
-  padding: 1rem 0.5rem;
-  max-width: 400px;
+  padding: 1.5rem 1rem;
+  max-width: 520px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -223,11 +224,17 @@ main {
   margin: 0 0 0.3rem 0;
   color: #ff9f5f;
 }
+.addon-title {
+  font-weight: 700;
+  margin: 0.2rem 0;
+}
+
 .addon-price {
   color: #ff7a2e;
   font-weight: 700;
-  margin-left: 0.5em;
+  margin: 0.3rem 0;
 }
+
 .addon-desc {
   margin-top: 0.5rem;
   font-size: 0.9rem;
@@ -285,6 +292,10 @@ footer {
   align-items: center;
 }
 
+.founded {
+  color: #ff5555;
+  margin: 0.2rem 0;
+}
 @media (max-width: 900px) {
   .service-list, .reasons {
     flex-direction: column;
@@ -325,4 +336,13 @@ footer {
 
 .about-intro p {
   margin-bottom: 1rem;
+}
+#services, #contact { scroll-margin-top: 80px; }
+
+@keyframes heroPan {
+  0% { transform: scale(1) translateY(-5%); }
+  25% { transform: scale(1.02) translateY(0); }
+  50% { transform: scale(1) translateY(5%); }
+  75% { transform: scale(1.02) translateY(0); }
+  100% { transform: scale(1) translateY(-5%); }
 }
