@@ -1,16 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   font-family: 'Montserrat', Arial, sans-serif;
   background: #121212;
   color: #e5e5e5;
+  box-sizing: border-box;
 }
 
 img, video {
@@ -32,25 +25,24 @@ footer .logo {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   padding: 0.5rem 1rem;
   z-index: 3;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #000;
   background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(4px);
 }
 
 .nav-links {
   display: flex;
-  gap: 1rem;
 }
 
 .nav-links a {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
+  margin-left: 1rem;
 }
 
 .hero {
@@ -152,7 +144,6 @@ main {
 .service-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
   margin-bottom: 2rem;
 }
@@ -168,6 +159,7 @@ main {
   flex-direction: column;
   align-items: center;
   transition: box-shadow 0.2s;
+  margin: 1rem;
 }
 .service-card:hover {
   box-shadow: 0 4px 24px rgba(0,0,0,0.8);
@@ -267,7 +259,6 @@ main {
 .reasons {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
   justify-content: center;
 }
 .reason {
@@ -275,6 +266,7 @@ main {
   max-width: 300px;
   min-width: 200px;
   text-align: center;
+  margin: 1rem;
 }
 .reason h3 {
   color: #ff9f5f;
@@ -301,7 +293,6 @@ footer {
 @media (max-width: 900px) {
   .service-list, .reasons {
     flex-direction: column;
-    gap: 1.5rem;
     align-items: center;
   }
   .service-card, .reason {
@@ -339,8 +330,6 @@ footer {
 .about-intro p {
   margin-bottom: 1rem;
 }
-#services, #contact { scroll-margin-top: 80px; }
-
 @keyframes heroPan {
   /* Focus pan & zoom around the steering wheel area (about 80% from
      the top of the image) */

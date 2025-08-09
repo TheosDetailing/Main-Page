@@ -3,12 +3,12 @@
   "short_name": "Theo's Detailing",
   "icons": [
     {
-      "src": "/assets/Secondary%20Logo%20or%20Alternate%20Logo.png",
+      "src": "/assets/secondary-logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/Secondary%20Logo%20or%20Alternate%20Logo.png",
+      "src": "/assets/secondary-logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
